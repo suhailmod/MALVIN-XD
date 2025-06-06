@@ -8,9 +8,9 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID |malvin~gz1F3CqZ#JtJ1DrGqx9YtIyciZXb6c1LRdqeadVmqFRFi8iSIyyY| "",
 // add your Session Id make sure it starts with malvin~
-PREFIX: process.env.PREFIX |.| ".",
+PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME |𝓝𝓸𝓽𝓹𝓻𝓲𝓷𝓬𝓮| "ᴍᴀʟᴠɪɴ-xᴅ",
+BOT_NAME: process.env.BOT_NAME || "𝓝𝓸𝓽𝓹𝓻𝓲𝓷𝓬𝓮",
 // add bot name here for menu
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
@@ -71,7 +71,7 @@ LINK_WHITELIST: "youtube.com,github.com",
           OWNER_NUMBER: process.env.OWNER_NUMBER || "233554231894",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME |𝓝𝓸𝓽𝓹𝓻𝓲𝓷𝓬𝓮| "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "𝓝𝓸𝓽𝓹𝓻𝓲𝓷𝓬𝓮",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
